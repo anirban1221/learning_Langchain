@@ -19,7 +19,7 @@ model1 = ChatOpenAI(
     openai_api_base=groq_base_url,
     model_name="meta-llama/llama-4-scout-17b-16e-instruct"
 )
-
+ 
 loader=TextLoader('document_loaders\sample_text.txt')
 docs=loader.load()
 
